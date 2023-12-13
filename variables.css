@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+
+:root {
+    --main-clr-neutral: #EC6559;
+    --main-clr-light: #EE706B;
+    --main-clr-hard: #D25954;
+
+    --secondary-clr-neutral: #2F5C63;
+    --secondary-clr-light: #467A80;
+    --secondary-clr-hard: #214347;
+    --secondary-clr-harder: #1C1C1C;
+
+    --grayscale-clr-lighter: #FFFDFE;
+    --grayscale-clr-light: #ECECEC;
+    --grayscale-clr-hard: #A5A4A4;
+    --grayscale-clr-hard-20: rgba(165, 164, 164, .2);
+    --grayscale-clr-harder: #242424;
+
+    font-family: 'Nunito';
+}
