@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importation des plugins GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-interactivity@1.6/dist/lottie-interactivity.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="variables.css" />
+    <title>SAE303</title>
+  </head>
+
+  <body>
+
+      <section class="accueil">ACCUEIL</section>
+
+    <div class="container">
+
+      <section class="container__panel puit">
+        
+        <img class="puit__bambou" src="assets/Bambou.svg" alt="bambou">
+        <img class="puit__soja" src="assets/soja.svg" alt="Soja">
+        <img src="assets/arbres.svg" alt="arbres" class="puit__arbres">
+        <img alt="mais" class="puit__mais" src="assets/mais.svg" autoplay></img>
+        <img class="puit__coton" src="assets/coton.svg" alt="coton">
+        <img class="puit__particule" src="assets/microparticule.svg" alt="Microparticule">
+        <span class="puit__terre" alt="Terre"></span>
+        <lottie-player class="puit__pompe" src="assets/pompe.json"></lottie-player>
+
+      </section>
+
+      <section class="container__panel champ">
+        <span class="champ__terre"></span>
+        <lottie-player class="champ__lapin" src="assets/lapin.json" alt="lapin"></lottie-player>
+        <lottie-player class="champ__alpaga" src="assets/alpaga.json" alt="alpaga"></lottie-player>
+        <lottie-player class="champ__chevre" src="assets/chèvre.json" alt="chevre"></lottie-player>
+        <lottie-player class="champ__vache" src="assets/test-vache.json" alt="vache"></lottie-player>
+        <lottie-player class="champ__mouton" src="assets/mouton.json" alt="mouton"></lottie-player>
+
+      </section>
+
+      <section class="container__panel trajet">
+        <span class="trajet__terre"></span>
+        <span class="trajet__sol"></span>
+        <img src="assets/camion.svg" alt="camion" class="trajet__camion">
+        <img src="assets/usine.svg" alt="usine" class="trajet__usine">
+        <img src="assets/nuage.svg" alt="Nuage" class="trajet__nuage">
+        <img src="assets/nuage.svg" alt="Nuage" class="trajet__nuage2">
+        <img src="assets/nuage2.svg" alt="Nuage" class="trajet__nuage3">
+        
+      </section>
+
+      <section class="container__panel transition">
+        <h2 class="transition__text">Allons voir de plus près ce qu'il se passe dans l'usine</h2>
+      </section>
+
+      <section class="container__panel usine">
+        <img src="assets/fenêtre_fond_salle1.svg" alt="fenêtre" class="usine__fenetre">
+        <span class="usine__sol"></span>
+        <span class="usine__mur"></span>
+      </section>
+      
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
+é
